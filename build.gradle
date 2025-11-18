@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.18'  // última versão 2.x compatível com structurizr-spring-boot
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+description = 'StructurizrExample'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8  // como no tutorial original
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'  // starter básico como no tutorial
+    implementation 'cc.catalysts.structurizr:structurizr-spring-boot:1.3.0.4'  // extensão da Catalysts
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
