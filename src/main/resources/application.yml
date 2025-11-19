@@ -1,9 +1,9 @@
 structurizr:
   workspace:
-    id: 108457  # ← MUDE pelo seu ID real (crie workspace grátis em structurizr.com)
+    id:  # ← MUDE pelo seu ID real (crie workspace grátis em structurizr.com)
     name: StructurizrExample  # nome do seu modelo
     description: Exemplo baseado no tutorial Catalysts com Spring Boot + Structurizr
-    key: 785d4543-b6ba-47c2-b209-f6036fd778cd  # ← MUDE pela sua API key
-    secret: 50323382-3993-4644-af0e-3d67b7e990b7  # ← MUDE pelo seu API secret
+    key:  # ← MUDE pela sua API key
+    secret:  # ← MUDE pelo seu API secret
   # Opcional: criptografia client-side (como no tutorial)
   # encryptionPassphrase: sua-senha-aqui
